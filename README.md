@@ -7,11 +7,11 @@ Check it out at (https://deepanshugoel1122.github.io/Notes-App/)
 HTML, CSS, JAVASCRIPT, BOOTSTRAP
 
 ## Use
-User can add note
-can edit note
-can delete note
-can mark note as favourite
-can search note by title or by note
-can toggle dark theme
+User can add note, 
+can edit note, 
+can delete note, 
+can mark note as favourite, 
+can search note by title or by note, 
+can toggle dark theme..
 
 
