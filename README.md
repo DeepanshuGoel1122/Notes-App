@@ -1,6 +1,8 @@
 # Notes-App
 This is a note taking Single Page Application made with JavaScript
 
+Check it out at (https://deepanshugoel1122.github.io/Notes-App/)
+
 ## Made With
 HTML, CSS, JAVASCRIPT, BOOTSTRAP
 
