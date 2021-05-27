@@ -44,6 +44,9 @@ body{
     background-color: rgb(177, 177, 177);
 }
 
+.typed, .typed1{
+    font-size : clamp(1.4rem, 4vw, 3rem);
+}
 
  #addTitle, #addTxt{
     font-size: 1.2em;
