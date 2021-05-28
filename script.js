@@ -284,6 +284,18 @@ search.addEventListener("input", function () {
 //Function End
 
 
+//Function to prevent Reload on Enter key press
+
+$("form").keypress(function(e) {
+  //Enter key
+  if (e.which == 13) {
+    return false;
+  }
+});
+
+//Function End
+
+
 //Function to show Alert
 function err_1() {
   let htm = "";
