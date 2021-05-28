@@ -261,7 +261,7 @@ search.addEventListener("input", function () {
   Array.from(noteCards).forEach(function (element) {
     let srch_tog = document.querySelector('#srch_1').classList.contains('active');
     if (srch_tog) {
-      let cardTxt = element.getElementsByTagName("h5")[0].innerText;
+      let cardTxt = element.getElementsByTagName("h5")[0].innerText.toLowerCase();
       if (cardTxt.includes(inputVal)) {
         element.style.display = "block";
       }
@@ -269,7 +269,7 @@ search.addEventListener("input", function () {
         element.style.display = "none";
       }
     } else {
-      let cardTxt = element.getElementsByTagName("p")[0].innerText;
+      let cardTxt = element.getElementsByTagName("p")[0].innerText.toLowerCase();
       if (cardTxt.includes(inputVal)) {
         element.style.display = "block";
       }
