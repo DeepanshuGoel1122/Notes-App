@@ -1,7 +1,6 @@
 var run = "run";
 showNotes(run);
 
-
 // Function Start on pressing Add Note
 let addBtn = document.getElementById("addBtn");
 addBtn.addEventListener("click", function (e) {
